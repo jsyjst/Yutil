@@ -38,6 +38,15 @@ dependencies {
     implementation 'com.github.jsyjst:Yutil:v1.0.1'
 }
 ```
+内容说明
+---
+包名|工具|功能说明
+-|-|-|
+io|FileUtils|文件夹工具
+utils|ToastUtils|Toast工具
+utils|DataCheck|数据检查
+view|DensityUtils|屏幕密度相关工具
+view|ViewUtils|视图相关工具
 License
 ---
 ```
