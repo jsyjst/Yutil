@@ -1,13 +1,14 @@
 # Yutil
+### jsysjt的工具箱
 如何添加
-==
-# Gradle
-## 1.在Project的build.gradle 中添加仓库地址
+--
+### Gradle
+#### 1.在Project的build.gradle 中添加仓库地址
 ```
   //JitPack仓库
   maven { url 'https://jitpack.io' }
 ```
-### 示例：
+##### 示例：
 ```
 	allprojects {
 		repositories {
@@ -17,11 +18,11 @@
 		}
 	}
 ```
-## 2.在Module目录下的build.gradle中添加依赖
+#### 2.在Module目录下的build.gradle中添加依赖
 ```
 	implementation 'com.github.jsyjst:Yutil:Tag'
 ```
-### 示例：
+##### 示例：
 ```
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
