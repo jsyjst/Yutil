@@ -5,22 +5,22 @@
 ### Gradle
 #### 1.在Project的build.gradle 中添加仓库地址
 ```
-  //JitPack仓库
-  maven { url 'https://jitpack.io' }
+//JitPack仓库
+maven { url 'https://jitpack.io' }
 ```
 ##### 示例：
 ```
-	allprojects {
-		repositories {
-			...
-      //JitPack仓库
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+      		//JitPack仓库
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 #### 2.在Module目录下的build.gradle中添加依赖
 ```
-	implementation 'com.github.jsyjst:Yutil:Tag'
+implementation 'com.github.jsyjst:Yutil:Tag'
 ```
 ##### 示例：
 ```
