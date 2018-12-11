@@ -1,6 +1,7 @@
 # Yutil
 
 [![](https://jitpack.io/v/jsyjst/Yutil.svg)](https://jitpack.io/#jsyjst/Yutil)
+[![](https://img.shields.io/badge/作者-jsyjst-blue.svg)](https://blog.csdn.net/qq_41979349)
 
 ### jsysjt的工具箱
 如何添加
