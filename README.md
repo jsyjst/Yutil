@@ -45,6 +45,9 @@ dependencies {
 io|FileUtils|文件夹工具
 utils|ToastUtils|Toast工具
 utils|DataCheck|数据检查
+utils|StatusUtils|状态栏相关工具
+utils|ScreenUtils|屏幕相关工具
+utils|TextEditUtils|输入框相关工具
 view|DensityUtils|屏幕密度相关工具
 view|ViewUtils|视图相关工具
 
