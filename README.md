@@ -1,4 +1,8 @@
 # Yutil
+
+[![](https://jitpack.io/v/jsyjst/Yutil.svg)](https://jitpack.io/#jsyjst/Yutil)
+[![](https://img.shields.io/badge/作者-jsyjst-blue.svg)](https://blog.csdn.net/qq_41979349)
+
 ### jsysjt的工具箱
 如何添加
 --
@@ -20,7 +24,7 @@ allprojects {
 ```
 #### 2.在Module目录下的build.gradle中添加依赖
 ```
-implementation 'com.github.jsyjst:Yutil:v1.0.0'
+implementation 'com.github.jsyjst:Yutil:v1.0.1'
 ```
 ##### 示例：
 ```
@@ -31,9 +35,20 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation 'com.github.jsyjst:Yutil:v1.0.0'
+    implementation 'com.github.jsyjst:Yutil:v1.0.1'
 }
 ```
+内容说明
+---
+包名|工具|功能说明
+-|-|-|
+io|FileUtils|文件夹工具
+utils|ToastUtils|Toast工具
+utils|DataCheck|数据检查
+view|DensityUtils|屏幕密度相关工具
+view|ViewUtils|视图相关工具
+
+
 License
 ---
 ```
